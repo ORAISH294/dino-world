@@ -1,0 +1,72 @@
+/* Basic Reset */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container to center everything */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Welcome text styling */
+#welcome-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Game container */
+#game {
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+/* Dino styling */
+#dino {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+/* Obstacle styling */
+#obstacle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+
+/* Score styling */
+#score {
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #FFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
